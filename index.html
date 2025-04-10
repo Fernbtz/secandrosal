@@ -3,191 +3,188 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SECANDROSAL - Antidrogas</title>
+  <title>Investigaciones Antidrogas - Salta</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <style>
-    body {
-      background-color: #f4f6f9;
-      font-family: 'Segoe UI', sans-serif;
-      color: #212529;
-    }
-    .navbar {
-      background-color: #003300;
-    }
-    .navbar-brand, .nav-link {
-      color: white !important;
-    }
-    .nav-link:hover {
-      color: #ffc107 !important;
-    }
-    .banner-img {
-      width: 100%;
-      max-width: 320px;
-      border-radius: 12px;
-      border: 4px solid #dee2e6;
-    }
-    .section-title {
-      font-weight: bold;
-      color: #002244;
-      margin-bottom: 1.5rem;
-    }
-    section {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      margin-bottom: 2rem;
-    }
-    .card img {
-      object-fit: cover;
-      height: 200px;
-    }
-    footer {
-      background-color: #001a00;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
     .gallery-container {
-      overflow-x: auto;
-      white-space: nowrap;
-      padding: 1rem 0;
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
     }
     .gallery-item {
-      display: inline-block;
       background: #f8f9fa;
-      padding: 1rem;
-      margin: 0 0.5rem;
-      border-radius: 10px;
-      min-width: 220px;
-      transition: transform 0.3s ease;
+      border-radius: 1rem;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       text-align: center;
+      width: 250px;
     }
-    .gallery-item:hover {
-      transform: scale(1.05);
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 4rem;
     }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">SECANDROSAL</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#mision">Misión</a></li>
-          <li class="nav-item"><a class="nav-link" href="#procedimientos">Procedimientos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-        </ul>
-      </div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">SECANDROSAL</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#mision">Misión</a></li>       
+        <li class="nav-item"><a class="nav-link" href="#procedimientos">Procedimientos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galería de Autoridades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Género</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <header class="text-center my-5">
-    <div class="container">
-      <h1 class="display-5 fw-bold text-uppercase">Sección de Investigaciones Antidrogas "Salta"</h1>
-      <img src="https://informedepatrulla.com/wp-content/uploads/2017/11/LOGO-ONU.jpg" class="banner-img mt-4" alt="Logo">
-    </div>
-  </header>
+<!-- Encabezado -->
+<header class="text-center my-5 pt-5" data-aos="zoom-in">
+  <div class="container">
+    <h1 class="display-5 fw-bold text-uppercase">Sección de Investigaciones Antidrogas "Salta"</h1>
+    <img src="https://informedepatrulla.com/wp-content/uploads/2017/11/LOGO-ONU.jpg" class="img-fluid mt-4" alt="Logo" style="max-height: 150px;">
+  </div>
+</header>
 
-  <section id="mision" class="container">
-    <h2 class="section-title text-center">Misión y Función</h2>
-    <p>Efectuara actividades de investigaciones referidas al tráfico ilícito de drogas y sus delitos conexos y coordinara las mismas con otros organismos extra institucionales en la materia, en la jurisdicción asignada a la Agrupación VII “SALTA” y en forma permanente, para apoyar a los elementos de ejecución y favorecer la coordinación de sus actividades, a fin de dar cumplimiento a la misión y funciones de Gendarmería Nacional.</p>
-  </section>
+<!-- Misión -->
+<section id="mision" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Misión y Función</h2>
+  <p class="text-justify">Efectuara actividades de investigaciones referidas al tráfico ilícito de drogas y sus delitos conexos y coordinara las mismas con otros organismos extra institucionales en la materia, en la jurisdicción asignada a la Agrupación VII “SALTA” y en forma permanente, para apoyar a los elementos de ejecución y favorecer la coordinación de sus actividades, a fin de dar cumplimiento a la misión y funciones de Gendarmería Nacional.
+    .</p>
+</section>
 
-  <section class="container">
-    <h2 class="section-title text-center">Historia</h2>
-    <p>EN EL AÑO 1997 SE CREO EL PROGRAMA “FRONTERA NORTE” CON ADICIÓN DE LA AGENCIA ANTIDROGAS DE EEU DEA, PARA REALIZAR ACTIVIDADES INVESTIGATIVAS EN LA LUCHA CONTRA EL TRÁFICO ILÍCITO DE DROGAS CON EQUIPOS DE TRABAJOS ITEGRADOS POR PERSONAL DE GN Y POLSAL, TENIENDO COMO ASIENTO NATURAL LA CIUDAD DE SALTA, INICIANDO SUS TAREAS EN EL EMPLAZAMIENTO FISICO DEL CENTRO REGIONAL DE REUNION “SALTA”.<br>
-    MEDIANTE DDNG 408/02 SE CREO LA UNIDAD ESPECIAL ANTINARCÓTICOS FRONTERA NORTE. <br>
-    MEDIANTE DDNG 371/10 LA SITADA UNIDAD ESPECIAL PASO A DEPENDER DEL CENTRO DE RECONOCIMIENTOS Y OPERACIONES ESPECIALES CONTRA EL NARCOTRAFICO (CENRECONAR).<br>
-    MEDIANTE DDNG 360/12 LA UNIDAD ESPECIAL ANTINARCÓTICOS “FRONTERA NORTE”, TRASLADO SU ASIENTO A LA CIUDAD DE SANTIAGO DEL ESTERO, DEJANDO DESTACADA LA SECCION ESPECIAL ANTINARCOTICOS “SALTA” EN ESTA CIUDAD.<br>
-    MEDIANTE DDNG 1377/15 MODIFICA LA DENOMINACION Y CAMBIO DE DEPENDENCIA , PASANDO A SER LA “SECCION DE INVESTIGACIONES ANTIDROGAS SALTA”.</p>
-  </section>
+<!-- Historia -->
+<section class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Historia</h2>
+  <p class="text-justify">EN EL AÑO 1997 SE CREO EL PROGRAMA “FRONTERA NORTE” CON ADICIÓN DE LA AGENCIA ANTIDROGAS DE EEU DEA, PARA REALIZAR ACTIVIDADES INVESTIGATIVAS EN LA LUCHA CONTRA EL TRÁFICO ILÍCITO DE DROGAS CON EQUIPOS DE TRABAJOS ITEGRADOS POR PERSONAL DE GN Y POLSAL,  TENIENDO COMO ASIENTO NATURAL LA CIUDAD DE SALTA, INICIANDO SUS TAREAS  EN EL EMPLAZAMIENTO FISICO DEL CENTRO REGIONAL DE REUNION “SALTA”.
+    MEDIANTE  DDNG 408/02 SE CREO LA UNIDAD ESPECIAL ANTINARCÓTICOS FRONTERA NORTE. 
+    MEDIANTE  DDNG 371/10 LA SITADA UNIDAD ESPECIAL PASO A DEPENDER DEL CENTRO DE RECONOCIMIENTOS Y OPERACIONES ESPECIALES CONTRA EL NARCOTRAFICO (CENRECONAR).
+    MEDIANTE DDNG 360/12 LA UNIDAD ESPECIAL ANTINARCÓTICOS “FRONTERA NORTE”, TRASLADO SU ASIENTO A LA CIUDAD DE SANTIAGO DEL ESTERO, DEJANDO DESTACADA LA SECCION ESPECIAL ANTINARCOTICOS “SALTA” EN ESTA CIUDAD.
+    MEDIANTE DDNG 1377/15 MODIFICA LA DENOMINACION Y CAMBIO DE DEPENDENCIA , PASANDO A SER LA “SECCION DE INVESTIGACIONES ANTIDROGAS SALTA”. 
+    </p>
+    <h2>
+      <href img="https://anguacurari.com.ar/wp-content/uploads/2024/07/img-20240728-wa00114365835416241762584.jpg"
+        
+    </h2>
+</section>
+<!-- Jurisdicción -->
+<section id="mision" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Jurisdicción</h2>
+  <p class="text-justify">La Zona de Responsabilidad de la Sección Antidrogas Salta, es coincidente  con la jurisdicción de la Agrupación VII “Salta”, abarcando la totalidad de la provincia alcanzando una superficie de 155.488 km2
+    .
+    .</p>
+</section>
 
-  <section id="procedimientos" class="container">
-    <h2 class="section-title text-center">Procedimientos Recientes</h2>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card">
-          <img src="https://www.argentina.gob.ar/sites/default/files/detienen_al_cabecilla_de_una_organizacion_narcocriminal_con_16_kilos_de_cocaina_en_un_vehiculo_4.jpeg" class="card-img-top" alt="Procedimiento 1">
-          <div class="card-body">
-            <h5 class="card-title">Líder capturado con 16kg de cocaína</h5>
-            <p class="card-text">Operativo en Cabeza de Buey tras 3 meses de investigación.</p>
-            <a href="https://www.argentina.gob.ar/noticias/salta-investigan-localizan-y-detienen-al-lider-de-una-organizacion-narcocriminal-con-16" target="_blank" class="btn btn-outline-primary btn-sm">Ver más</a>
-          </div>
+<!-- Procedimientos -->
+<section id="procedimientos" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Procedimientos Recientes</h2>
+  <div class="row">
+    <!-- Procedimiento 1 -->
+    <div class="col-md-6 mb-4" data-aos="zoom-in">
+      <div class="card shadow-sm">
+        <img src="https://www.argentina.gob.ar/sites/default/files/detienen_al_cabecilla_de_una_organizacion_narcocriminal_con_16_kilos_de_cocaina_en_un_vehiculo_4.jpeg" class="card-img-top" alt="Procedimiento 1">
+        <div class="card-body">
+          <h5 class="card-title">Líder capturado con 16kg de cocaína</h5>
+          <p class="card-text">Operativo en Cabeza de Buey tras 3 meses de investigación.</p>
+          <a href="https://www.argentina.gob.ar/noticias/salta-investigan-localizan-y-detienen-al-lider-de-una-organizacion-narcocriminal-con-16" class="btn btn-outline-primary btn-sm" target="_blank">Ver más</a>
         </div>
       </div>
-      <div class="col-md-6 mb-4">
-        <div class="card">
-          <img src="https://uscdn.eltribuno.com/032025/1743215419281.webp?cw=1155&ch=650&extw=jpg" class="card-img-top" alt="Procedimiento 2">
-          <div class="card-body">
-            <h5 class="card-title">Narcos interceptados con 64kg</h5>
-            <p class="card-text">Interceptaron dos camionetas con droga en Cauchari.</p>
-            <a href="https://www.eltribuno.com/policiales/2025-3-29-0-0-0-caen-narcos-que-usaban-rutas-mineras-con-64-kilos-de-cocaina" target="_blank" class="btn btn-outline-primary btn-sm">Ver más</a>
-          </div>
+    </div>
+    <!-- Procedimiento 2 -->
+    <div class="col-md-6 mb-4" data-aos="zoom-in">
+      <div class="card shadow-sm">
+        <img src="https://uscdn.eltribuno.com/032025/1743215419281.webp?cw=1155&ch=650&extw=jpg" class="card-img-top" alt="Procedimiento 2">
+        <div class="card-body">
+          <h5 class="card-title">Narcos interceptados con 64kg</h5>
+          <p class="card-text">Interceptaron dos camionetas con droga en Cauchari.</p>
+          <a href="https://www.eltribuno.com/policiales/2025-3-29-0-0-0-caen-narcos-que-usaban-rutas-mineras-con-64-kilos-de-cocaina" class="btn btn-outline-primary btn-sm" target="_blank">Ver más</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="galeria" class="container">
-    <h2 class="section-title text-center">Galería de Autoridades</h2>
-    <h5 class="text-muted text-center">Jefes</h5>
-    <div class="gallery-container">
-      <div class="gallery-item">
-        <h6>Ramiro Fernando Ten</h6>
-        <small>Comandante<br>2020 - 2022</small>
-      </div>
-      <div class="gallery-item">
-        <h6>Atilio Ruben Pereyra</h6>
-        <small>Comandante<br>2022 - 2024</small>
-      </div>
-      <div class="gallery-item">
-        <h6>Rodrigo Ernesto Duarte</h6>
-        <small>Comandante<br>2024 - Actualidad</small>
-      </div>
+<!-- Galería -->
+<section id="galeria" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Galería de Autoridades</h2>
+  <h5 class="text-muted text-center">Jefes</h5>
+  <div class="gallery-container">
+    <!-- Tarjetas de jefes -->
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Ramiro Fernando Ten</h6>
+      <small>Comandante<br>2020 - 2022</small>
     </div>
-
-    <h5 class="text-muted text-center mt-5">Encargados</h5>
-    <div class="gallery-container">
-      <div class="gallery-item">
-        <h6>Andrés Censi</h6>
-        <small>Suboficial Mayor<br>2022</small>
-      </div>
-      <div class="gallery-item">
-        <h6>Rosendo Ponce</h6>
-        <small>Suboficial Mayor<br>2022 - 2023</small>
-      </div>
-      <div class="gallery-item">
-        <h6>Alfredo Iginio Guzmán</h6>
-        <small>Suboficial Mayor<br>2024 - Actualidad</small>
-      </div>
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Atilio Ruben Pereyra</h6>
+      <small>Comandante<br>2022 - 2024</small>
     </div>
-  </section>
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Rodrigo Ernesto Duarte</h6>
+      <small>Comandante<br>2024 - Actualidad</small>
+    </div>
+  </div>
 
-  <section id="contacto" class="container">
-    <h2 class="section-title text-center">Contacto</h2>
-    <p class="text-center"><strong>Teléfono:</strong> 11-71813985<br><strong>Email:</strong> SEC-ANDROSAL@gendarmeria.gob.ar</p>
+  <h5 class="text-muted text-center mt-5">Encargados</h5>
+  <div class="gallery-container">
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Andrés Censi</h6>
+      <small>Suboficial Mayor<br>2022</small>
+    </div>
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Rosendo Ponce</h6>
+      <small>Suboficial Mayor<br>2022 - 2023</small>
+    </div>
+    <div class="gallery-item" data-aos="zoom-in">
+      <h6>Alfredo Iginio Guzmán</h6>
+      <small>Suboficial Mayor<br>2023 - 2025</small>
+    </div>
+  </div>
+</section>
+<!-- Género -->
+<section id="mision" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Género</h2>
+  <p class="text-justify">La Sección de Investigaciones Antidrogas 'Salta' cuenta con personal especialmente capacitado para intervenir en situaciones con perspectiva de género, garantizando un abordaje responsable, sensible y respetuoso en casos de violencia o vulnerabilidad..<br> <li>Sargento Primero Anahi del Milagro ZURITA.</li><br> <li>Cabo Fernando Antonio BRITEZ</li>
+    .</p>
+</section>
 
 
-  <footer>
-    Página creada por el Cabo Fernando A. Britez - SECANDROSAL
-  </footer>
+<!-- Contacto -->
+<section id="contacto" class="container mb-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Contacto</h2>
+  <p class="text-center"><strong>Teléfono:</strong> 11-71813985<br><strong>Email:</strong> SEC-ANDROSAL@gendarmeria.gob.ar</p>
+  <p class="text-center mt-3">
+   
+  </p>
+</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 1000, once: true });
-  </script>
+<!-- Footer -->
+<footer>
+  Página creada por el Cabo Fernando A. Britez - SECANDROSAL
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
 </body>
 </html>
+
 
 
 
